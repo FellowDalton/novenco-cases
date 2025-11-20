@@ -124,7 +124,7 @@
       }
 
       .bee-form .bee-form-row .bee-field {
-        padding: 3px;
+        padding: 10px;
         display: flex;
         flex: 1;
         flex-wrap: wrap;
@@ -156,6 +156,10 @@
 
       .bee-form .bee-form-row .bee-field .bee-form-option-wrapper > label {
         min-width: 0;
+      }
+
+      .bee-form .bee-form-row-consent {
+        display: flex;
       }
 
       .bee-form
@@ -292,7 +296,7 @@
       }
 
       .bee-row-8 {
-        background-color: #f3f2f2;
+        background-color: #ffffff;
         background-repeat: no-repeat;
       }
 
@@ -498,6 +502,10 @@
         text-align: left;
         display: inline-block;
         flex-grow: 0;
+
+        @media screen and (max-width: 768px) {
+          min-width: 100px;
+        }
       }
 
       .bee-row-8 .bee-col-1 .bee-block-6 ::-webkit-input-placeholder {
@@ -536,7 +544,7 @@
         .bee-block-6
         input:not([type="checkbox"]):not([type="radio"]):not([type="image"]),
       .bee-row-8 .bee-col-1 .bee-block-6 textarea {
-        background-color: #ffffff;
+        background-color: #f3f2f2;
         border-bottom: 1px solid transparent;
         border-left: 1px solid transparent;
         border-radius: 15px;
@@ -793,6 +801,153 @@
           </div>
         </div>
       </div>
+      <div class="bee-row bee-row-8">
+        <div class="bee-row-content">
+          <div class="bee-col bee-col-1 bee-col-w12">
+            <div class="bee-block bee-block-1 bee-spacer">
+              <div class="spacer" style="height: 100px"></div>
+            </div>
+            <div class="bee-block bee-block-2 bee-heading">
+              <h2>Get in touch with us today!</h2>
+            </div>
+            <div class="bee-block bee-block-3 bee-spacer">
+              <div class="spacer" style="height: 20px"></div>
+            </div>
+            <div class="bee-block bee-block-4 bee-paragraph">
+              <p>
+                Want to cut your energy consumption like Unilever Caivano did?
+                Let’s discuss how we can help your business achieve similar
+                results.
+              </p>
+            </div>
+            <div class="bee-block bee-block-5 bee-spacer">
+              <div class="spacer" style="height: 60px"></div>
+            </div>
+            <div class="bee-block bee-block-6 bee-form">
+              <form
+                accept-charset="UTF-8"
+                action="https://formspree.io/f/xjkaeeov"
+                autocomplete="on"
+                enctype="multipart/form-data"
+                method="POST"
+                target="_self"
+              >
+                <div class="bee-form-row bee-sidelabel">
+                  <div class="bee-field bee-field-r7c0m5r1f1">
+                    <label for="r7c0m5r1f1">Name*</label
+                    ><input
+                      id="r7c0m5r1f1"
+                      name="firstname"
+                      required=""
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div class="bee-form-row bee-sidelabel">
+                  <div class="bee-field bee-field-r7c0m5r2f1">
+                    <label for="r7c0m5r2f1">Company name*</label
+                    ><input
+                      id="r7c0m5r2f1"
+                      name="lastname"
+                      required=""
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div class="bee-form-row bee-sidelabel">
+                  <div class="bee-field bee-field-r7c0m5r3f1">
+                    <label for="r7c0m5r3f1">Email address*</label
+                    ><input
+                      id="r7c0m5r3f1"
+                      name="email"
+                      required=""
+                      type="email"
+                    />
+                  </div>
+                </div>
+                <div class="bee-form-row bee-sidelabel">
+                  <div class="bee-field bee-field-r7c0m5r4f1">
+                    <label for="r7c0m5r4f1">Phone number*</label
+                    ><input
+                      id="r7c0m5r4f1"
+                      name="telephone"
+                      required=""
+                      type="tel"
+                    />
+                  </div>
+                </div>
+                <div class="bee-form-row bee-sidelabel">
+                  <div class="bee-field bee-field-r7c0m5r5f1">
+                    <label for="r7c0m5r5f1">Details</label
+                    ><textarea
+                      id="r7c0m5r5f1"
+                      name="message"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="bee-form-row bee-sidelabel bee-form-row-consent">
+                  <label></label>
+                  <div class="bee-field bee-field-r7c0m5r6f1 bee-inline-field">
+                    <span class="bee-form-choices-wrapper"
+                      ><span class="bee-form-options-align-wrapper"
+                        ><span
+                          class="bee-form-options-vertical-orientation-wrapper"
+                          ><span class="bee-form-option-wrapper"
+                            ><input
+                              id="r7c0m5r6f1_1"
+                              name="privacy_policy[]"
+                              required=""
+                              type="checkbox"
+                              value="I accept Novenco's Privacy Policy and consent to the processing of my personal data. [Privacy Policy](https://www.novenco-building.com/privacy-policy/)"
+                            /><label class="inline" for="r7c0m5r6f1_1"
+                              > I accept Novenco's Privacy Policy and consent to
+                              the processing of my personal data.
+                              <a
+                                href="https://www.novenco-building.com/privacy-policy/"
+                                target="_blank"
+                                >Privacy Policy</a
+                              ></label
+                            ></span
+                          ><span class="bee-form-option-wrapper"
+                            ><input
+                              id="r7c0m5r6f1_2"
+                              name="privacy_policy[]"
+                              required=""
+                              type="checkbox"
+                              value="I agree to be contacted by Novenco regarding my enquiry."
+                            /><label class="inline" for="r7c0m5r6f1_2"
+                              > I agree to be contacted by Novenco regarding my
+                              enquiry.</label
+                            ></span
+                          ></span
+                        ></span
+                      ></span
+                    >
+                  </div>
+                </div>
+                <div class="bee-form-row bee-sidelabel">
+                  <div class="bee-field bee-field-r7c0m5r7f1">
+                    <div class="bee-button-container">
+                      <button
+                        id="r7c0m5r7f1"
+                        name="submit"
+                        type="submit"
+                        value="Submit"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="bee-block bee-block-7 bee-spacer">
+              <div class="spacer bee-mobile_hide" style="height: 100px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="bee-row bee-row-2">
         <div class="bee-row-content">
           <div class="bee-col bee-col-1 bee-col-w12">
@@ -945,152 +1100,6 @@
           <div class="bee-col bee-col-1 bee-col-w12">
             <div class="bee-block bee-block-1 bee-spacer">
               <div class="spacer" style="height: 150px"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="bee-row bee-row-8">
-        <div class="bee-row-content">
-          <div class="bee-col bee-col-1 bee-col-w12">
-            <div class="bee-block bee-block-1 bee-spacer">
-              <div class="spacer" style="height: 100px"></div>
-            </div>
-            <div class="bee-block bee-block-2 bee-heading">
-              <h2>Get in touch with us today!</h2>
-            </div>
-            <div class="bee-block bee-block-3 bee-spacer">
-              <div class="spacer" style="height: 20px"></div>
-            </div>
-            <div class="bee-block bee-block-4 bee-paragraph">
-              <p>
-                Want to cut your energy consumption like Unilever Caivano did?
-                Let’s discuss how we can help your business achieve similar
-                results.
-              </p>
-            </div>
-            <div class="bee-block bee-block-5 bee-spacer">
-              <div class="spacer" style="height: 60px"></div>
-            </div>
-            <div class="bee-block bee-block-6 bee-form">
-              <form
-                accept-charset="UTF-8"
-                action="https://formspree.io/f/xjkaeeov"
-                autocomplete="on"
-                enctype="multipart/form-data"
-                method="POST"
-                target="_self"
-              >
-                <div class="bee-form-row bee-sidelabel">
-                  <div class="bee-field bee-field-r7c0m5r1f1">
-                    <label for="r7c0m5r1f1">Name*</label
-                    ><input
-                      id="r7c0m5r1f1"
-                      name="firstname"
-                      required=""
-                      type="text"
-                    />
-                  </div>
-                </div>
-                <div class="bee-form-row bee-sidelabel">
-                  <div class="bee-field bee-field-r7c0m5r2f1">
-                    <label for="r7c0m5r2f1">Company name*</label
-                    ><input
-                      id="r7c0m5r2f1"
-                      name="lastname"
-                      required=""
-                      type="text"
-                    />
-                  </div>
-                </div>
-                <div class="bee-form-row bee-sidelabel">
-                  <div class="bee-field bee-field-r7c0m5r3f1">
-                    <label for="r7c0m5r3f1">Email address*</label
-                    ><input
-                      id="r7c0m5r3f1"
-                      name="email"
-                      required=""
-                      type="email"
-                    />
-                  </div>
-                </div>
-                <div class="bee-form-row bee-sidelabel">
-                  <div class="bee-field bee-field-r7c0m5r4f1">
-                    <label for="r7c0m5r4f1">Phone number*</label
-                    ><input
-                      id="r7c0m5r4f1"
-                      name="telephone"
-                      required=""
-                      type="tel"
-                    />
-                  </div>
-                </div>
-                <div class="bee-form-row bee-sidelabel">
-                  <div class="bee-field bee-field-r7c0m5r5f1">
-                    <label for="r7c0m5r5f1">Details</label
-                    ><textarea
-                      id="r7c0m5r5f1"
-                      name="message"
-                      rows="3"
-                    ></textarea>
-                  </div>
-                </div>
-                <div class="bee-form-row bee-sidelabel">
-                  <div class="bee-field bee-field-r7c0m5r6f1 bee-inline-field">
-                    <span class="bee-form-choices-wrapper"
-                      ><span class="bee-form-options-align-wrapper"
-                        ><span
-                          class="bee-form-options-vertical-orientation-wrapper"
-                          ><span class="bee-form-option-wrapper"
-                            ><input
-                              id="r7c0m5r6f1_1"
-                              name="privacy_policy[]"
-                              required=""
-                              type="checkbox"
-                              value="I accept Novenco's Privacy Policy and consent to the processing of my personal data. [Privacy Policy](https://www.novenco-building.com/privacy-policy/)"
-                            /><label class="inline" for="r7c0m5r6f1_1"
-                              > I accept Novenco's Privacy Policy and consent to
-                              the processing of my personal data.
-                              <a
-                                href="https://www.novenco-building.com/privacy-policy/"
-                                target="_blank"
-                                >Privacy Policy</a
-                              ></label
-                            ></span
-                          ><span class="bee-form-option-wrapper"
-                            ><input
-                              id="r7c0m5r6f1_2"
-                              name="privacy_policy[]"
-                              required=""
-                              type="checkbox"
-                              value="I agree to be contacted by Novenco regarding my enquiry."
-                            /><label class="inline" for="r7c0m5r6f1_2"
-                              > I agree to be contacted by Novenco regarding my
-                              enquiry.</label
-                            ></span
-                          ></span
-                        ></span
-                      ></span
-                    >
-                  </div>
-                </div>
-                <div class="bee-form-row bee-sidelabel">
-                  <div class="bee-field bee-field-r7c0m5r7f1">
-                    <div class="bee-button-container">
-                      <button
-                        id="r7c0m5r7f1"
-                        name="submit"
-                        type="submit"
-                        value="Submit"
-                      >
-                        Submit
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div class="bee-block bee-block-7 bee-spacer">
-              <div class="spacer bee-mobile_hide" style="height: 100px"></div>
             </div>
           </div>
         </div>
